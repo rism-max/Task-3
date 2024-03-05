@@ -15,11 +15,30 @@ body {
     background-size:50% ;
 }
 
+.home {
+   margin: 0px 120px; 
+}
+
 .navbar {
     display: flex;
-    margin:70px 120px 0 120px;
-    background-color: aqua;
-    border: solid 1px black;
+    margin-top: 70px;
+    /* background-color: aqua; */
+    /* border: solid 1px black; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .kiri {
+    display: flex;
+    /* background-color: aqua; */
+    /* border: solid 1px black; */
+    align-items: center;
+}
+.navbar .kanan{
+    display: flex;
+    /* background-color: aqua; */
+    /* border: solid 1px black; */
+    align-items: center;
 }
 
 .navbar img {
@@ -40,8 +59,42 @@ body {
 }
 
 .navbar a {
-    border: solid 1px black;
+    display: flex ;
+    /* border: solid 1px black; */
     margin: 0px 35px;
     font-size: 14px;
     color: #9A9EA6;
+    align-items: center;
+}
+
+.login {
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 137px;
+    height: 43px;
+    background-color: white;
+}
+
+.konten {
+    display: flex;
+    margin-top: 54px;
+    /* border: solid 1px black; */
+}
+
+.hero {
+    width: 50%;
+    /* border: solid 1px black; */
+    font-size: 76px;
+    color: #181E4B;
+    font-weight: bolder;
+    letter-spacing: -4px;
+}
+
+.hero span {
+    color: #4475F2;
+    text-decoration: underline 3px;
+    text-underline-offset: 15px;
+    letter-spacing: -4px;
 }
