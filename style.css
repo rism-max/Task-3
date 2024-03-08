@@ -6,6 +6,7 @@
     padding: 0;
     font-family: "Plus Jakarta Sans";
     text-decoration: none;
+    letter-spacing: 0;
 }
 
 body {
@@ -86,6 +87,9 @@ body {
 .hero {
     width: 50%;
     /* border: solid 1px black; */
+}
+
+.hero div {
     font-size: 76px;
     color: #181E4B;
     font-weight: bolder;
@@ -97,4 +101,157 @@ body {
     text-decoration: underline 3px;
     text-underline-offset: 15px;
     letter-spacing: -4px;
+}
+
+
+.hero .deskripsi {
+    /* border: solid 1px black; */
+    letter-spacing: 0;
+    width: 500px;
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 300;
+    width: 75%;
+    margin-top: 30px;
+}
+
+.cta {
+    margin-top: 34px;
+}
+.hero a {
+    font-size: 16px;
+    border: none;
+    background-color: #4475F2;
+    padding: 18px 54px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.feature {
+    margin: 100px 120px; 
+}
+
+.feature p {
+    color: #4475F2;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.feature h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.isi {
+    margin-top: 90px;
+    display: flex;
+    /* border: solid 1px black; */
+    justify-content: space-between;
+}
+
+.bagian {
+    /* border: solid 1px black; */
+    text-align: center;
+    width: 281px;
+    
+}
+
+.bagian img {
+    display: block;
+    margin: auto;
+    width: 102px;
+    height: 102px;
+}
+
+.bagian .judul {
+    margin-top: 20px;
+    /* border: solid 1px black; */
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.bagian p {
+    margin-top: 28px;
+    padding: 0px 5px;
+    font-size: 16px;
+    color: #5E6282;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 2;
+}
+
+.service {
+    margin: 100px 120px; 
+}
+
+.service p {
+    color: #4475F2;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.service h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+.service .satu {
+    margin-top: 90px;
+    /* border: solid 1px black; */
+    display: flex;
+}
+.satu .kiri {
+    /* border: solid 1px black; */
+    margin: 0px 150px;
+}
+
+.kiri .judul {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.kiri p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #9A9EA6;
+    font-weight: 300;
+    letter-spacing: 0;
+} 
+.kiri span {
+    color: #4475F2;
+    
+}
+
+.service .dua {
+    margin-top: 90px;
+    /* border: solid 1px black; */
+    display: flex;
+}
+
+.kanan .judul {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.kanan p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #9A9EA6;
+    font-weight: 300;
+    letter-spacing: 0;
+} 
+.kanan span {
+    color: #4475F2;
+    
+}
+
+.dua .kiri {
+    margin-left: 200px;
 }
