@@ -8,6 +8,9 @@
     text-decoration: none;
     letter-spacing: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background-image: url(asset/Cover.png);
